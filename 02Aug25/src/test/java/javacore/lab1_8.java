@@ -10,7 +10,7 @@ public class lab1_8 {
 	}
 
 }
-class Person
+class Person1_8
 {
 	private String firstName;
 	private String lastName;
@@ -53,12 +53,12 @@ class Person
 
 	
 	
-	public Person() {
+	public Person1_8() {
 		// TODO Auto-generated constructor stub
 		
 		
 	}
-	public Person(String firstname,String lastname, Gender g, String mobile) {
+	public Person1_8(String firstname,String lastname, Gender g, String mobile) {
 		setFirstName(firstname);
 		setLastName(lastname);
 		setGender(g);

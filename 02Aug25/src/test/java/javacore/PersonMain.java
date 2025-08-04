@@ -5,7 +5,7 @@ public class PersonMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Person person= new Person("Aravind", "Attepu" ,Person.Gender.M,"123456789");
+		Person1_8 person= new Person1_8("Aravind", "Attepu" ,Person1_8.Gender.M,"123456789");
 		System.out.println("Person Details:");
 		System.out.println("___________________\n");
 		System.out.println("First Name: "+person.getFirstName());
