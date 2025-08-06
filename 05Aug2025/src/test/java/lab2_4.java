@@ -11,7 +11,7 @@ public class lab2_4 {
 }
 class EmployeeServiceImpl implements EmployeeService {
 
-    @Override  // ✅ Properly marked as overridden method
+    @Override 
     public String setInsuranceScheme(Employee emp) {
         double salary = emp.getSalary();
         String designation = emp.getDesignation().toLowerCase();
