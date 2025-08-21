@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel='tests'  thread-count="2">
+  <test thread-count="5" name="chrometest">
+  <parameter name="browser" value="chrome" />
+    <parameter name="n" value="1"/>
+   		<parameter name="s" value="Mac (1)"/>
+    <classes>
+      <class name="selenium_.test1"/>
+       </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="firefoxtest">
+      <parameter name="browser" value="firefox" />
+        <parameter name="n" value="1"/>
+   		<parameter name="s" value="Mac (1)"/>
+    <classes>
+       <class name="selenium_.test1"/>
+       </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="edgetest">
+      <parameter name="browser" value="edge" />
+        <parameter name="n" value="1"/>
+   		<parameter name="s" value="Mac (1)"/>
+    <classes>
+      <class name="selenium_.test1"/>
+       </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="chrometest2">
+  <parameter name="browser" value="chrome" />
+    <parameter name="n" value="1"/>
+   		<parameter name="s" value="Mac (1)"/>
+    <classes>
+      <class name="selenium_.test2"/>
+       </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="firefoxtest2">
+      <parameter name="browser" value="firefox" />
+      <parameter name="n" value="1"/>
+   		<parameter name="s" value="Mac (1)"/>
+    <classes>
+       <class name="selenium_.test2"/>
+       </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="edgetest2">
+      <parameter name="browser" value="edge" />
+        <parameter name="n" value="1"/>
+   		<parameter name="s" value="Mac (1)"/>
+    <classes>
+      <class name="selenium_.test2"/>
+       </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

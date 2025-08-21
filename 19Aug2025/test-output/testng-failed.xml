@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="chrometest(failed)">
+    <parameter name="s" value="Mac (1)"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="n" value="1"/>
+    <classes>
+      <class name="selenium_.test1">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium_.test1 -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+  <test thread-count="2" parallel="tests" name="edgetest(failed)">
+    <parameter name="s" value="Mac (1)"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="n" value="1"/>
+    <classes>
+      <class name="selenium_.test1">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium_.test1 -->
+    </classes>
+  </test> <!-- edgetest(failed) -->
+  <test thread-count="2" parallel="tests" name="chrometest2(failed)">
+    <parameter name="s" value="Mac (1)"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="n" value="1"/>
+    <classes>
+      <class name="selenium_.test2">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium_.test2 -->
+    </classes>
+  </test> <!-- chrometest2(failed) -->
+  <test thread-count="2" parallel="tests" name="firefoxtest(failed)">
+    <parameter name="s" value="Mac (1)"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="n" value="1"/>
+    <classes>
+      <class name="selenium_.test1">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium_.test1 -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
+  <test thread-count="2" parallel="tests" name="edgetest2(failed)">
+    <parameter name="s" value="Mac (1)"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="n" value="1"/>
+    <classes>
+      <class name="selenium_.test2">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium_.test2 -->
+    </classes>
+  </test> <!-- edgetest2(failed) -->
+  <test thread-count="2" parallel="tests" name="firefoxtest2(failed)">
+    <parameter name="s" value="Mac (1)"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="n" value="1"/>
+    <classes>
+      <class name="selenium_.test2">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium_.test2 -->
+    </classes>
+  </test> <!-- firefoxtest2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
