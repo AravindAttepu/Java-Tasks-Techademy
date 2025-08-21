@@ -20,20 +20,17 @@ public class PageObject2 {
 	}
 	
 	
-	//By menui=By.linkText("Desktops");
+	By menui=By.linkText("Desktops");
 	
-	@FindBy(linkText = "Desktops")
-	WebElement menui;
-	//By indexele=By.name("password");
-	//By btn=By.xpath("//div[@class='button-group']//button");
 	
-	@FindBy(xpath = "div[@class='button-group']//button")
-	WebElement btn;
+	By indexele=By.name("password");
+	By btn=By.xpath("//div[@class='button-group']//button");
+	
 	
 	public void selectmenu(String menuitem)
 	{
-		//driver.findElement(menui).click();
-		menui.click();
+		driver.findElement(menui).click();
+		//menui.click();
 		 Reporter.log("Clicked on Desktops menu", true);
 	}
 	public void selectindex(int ind)
@@ -47,8 +44,8 @@ public class PageObject2 {
 	}
 	public void clickbtn()
 	{
-		//driver.findElement(btn).click();
-		btn.click();
+		driver.findElement(btn).click();
+		//btn.click();
 		 Reporter.log("Clicked on Add to Cart button", true);
 	}
 	public void verifyheader(String h1)
